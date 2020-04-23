@@ -48,6 +48,32 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
+}
+	
+/*--------------------------------------------------------------
+4.0 - ELEMENTS
+-------------------------------------------------------------- */
+	
+/*--TYPOGRAPHY--*/
+	
+h1, h2 {
+ color: #249a47;
+}
+
+h1 {
+	line-height: 2rem;
+}
+
+h2 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+	
+p {
+	text-align: justify;
+}
+
+
 
 /*--------------------------------------------------------------
 5.0 - OBJECTS
@@ -57,11 +83,12 @@
 
 
 
-@media only screen and (min-width: 768px){
-	
+
+@media only screen and(min-width: 768px) {
+font-size: 1rem;
 }
 	
-@media screen and (min-width: 1024px){
+@media only screen and(min-width: 1024px) {
 	
 }
 
@@ -69,3 +96,11 @@
 6.0 - COMPONENTS
 -------------------------------------------------------------- */
  
+	
+/*--------------------------------------------------------------
+7.0 - UTILITIES
+-------------------------------------------------------------- */
+ 
+/*--ALIGNMENT--*/
+	
+
